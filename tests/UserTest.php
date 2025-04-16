@@ -5,7 +5,7 @@ use PHPUnit\Framework\TestCase;
 use App\User;
 
 class UserTest extends TestCase {
-
+  
   public function testClassConstructor()
   {
     $user = new User(18, 'John');

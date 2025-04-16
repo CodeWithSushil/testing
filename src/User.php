@@ -10,7 +10,7 @@ class User {
   
   /**
    * @param int $age
-   * @param string $name 
+   * @param string $name
    */
   public function __construct(int $age, string $name)
   {
