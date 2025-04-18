@@ -3,6 +3,7 @@
 ![Tests](https://github.com/CodeWithSushil/testing/actions/workflows/tests.yml/badge.svg)
 ![Issues](https://img.shields.io/github/issues/CodeWithSushil/testing)
 ![License](https://img.shields.io/github/license/CodeWithSushil/testing)
+![License](https://img.shields.io/github/license/Ashishkumbhar01/supabase-php?style=for-the-badge)
 
 this is a phpunit testing tutorial
 
