@@ -27,18 +27,4 @@ class User {
   {
     return "I am ".$this->age ." years old.";
   }
-  
-  public function addFavoriteMovie(string $movie): bool 
-  {
-    $this->favorite_movies[] = $movie;
-    return true;
-  }
-  
-  public function removeFavoriteMovie(string $movie): bool
-  {
-    if (!in_array($movie, $this->favorite_movies)) throw new InvalidArgumentException("Unknown movie:". $movie);
-    
-    unset($this->favorite_movies[array_search($movie, $this->favorite_movies)]);
-    return true;
-  }
 }
